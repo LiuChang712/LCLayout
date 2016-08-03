@@ -16,9 +16,6 @@
 		5866F9D01D4EE7AF003497C9 /* LCCollectionLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9CF1D4EE7AF003497C9 /* LCCollectionLayoutTests.m */; };
 		5866F9DB1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9DA1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m */; };
 		5866F9EB1D4EE920003497C9 /* LCLineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */; };
-		5866F9F91D4F3240003497C9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9F81D4F3240003497C9 /* Person.m */; };
-		5866F9FC1D4F324D003497C9 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9FB1D4F324D003497C9 /* Student.m */; };
-		5866F9FF1D4F3274003497C9 /* Person+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9FE1D4F3274003497C9 /* Person+add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +54,6 @@
 		5866F9DC1D4EE7AF003497C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5866F9E91D4EE920003497C9 /* LCLineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLineFlowLayout.h; sourceTree = "<group>"; };
 		5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLineFlowLayout.m; sourceTree = "<group>"; };
-		5866F9F71D4F3240003497C9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		5866F9F81D4F3240003497C9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		5866F9FA1D4F324D003497C9 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		5866F9FB1D4F324D003497C9 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		5866F9FD1D4F3274003497C9 /* Person+add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+add.h"; sourceTree = "<group>"; };
-		5866F9FE1D4F3274003497C9 /* Person+add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +109,6 @@
 				5866F9B91D4EE7AE003497C9 /* AppDelegate.m */,
 				5866F9BB1D4EE7AE003497C9 /* ViewController.h */,
 				5866F9BC1D4EE7AE003497C9 /* ViewController.m */,
-				5866F9F71D4F3240003497C9 /* Person.h */,
-				5866F9F81D4F3240003497C9 /* Person.m */,
-				5866F9FD1D4F3274003497C9 /* Person+add.h */,
-				5866F9FE1D4F3274003497C9 /* Person+add.m */,
-				5866F9FA1D4F324D003497C9 /* Student.h */,
-				5866F9FB1D4F324D003497C9 /* Student.m */,
 				5866F9BE1D4EE7AE003497C9 /* Main.storyboard */,
 				5866F9C11D4EE7AE003497C9 /* Assets.xcassets */,
 				5866F9C31D4EE7AE003497C9 /* LaunchScreen.storyboard */,
@@ -299,12 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5866F9BD1D4EE7AE003497C9 /* ViewController.m in Sources */,
-				5866F9FF1D4F3274003497C9 /* Person+add.m in Sources */,
 				5866F9BA1D4EE7AE003497C9 /* AppDelegate.m in Sources */,
-				5866F9F91D4F3240003497C9 /* Person.m in Sources */,
 				5866F9EB1D4EE920003497C9 /* LCLineFlowLayout.m in Sources */,
 				5866F9B71D4EE7AE003497C9 /* main.m in Sources */,
-				5866F9FC1D4F324D003497C9 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +510,7 @@
 				5866F9E11D4EE7AF003497C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5866F9E21D4EE7AF003497C9 /* Build configuration list for PBXNativeTarget "LCCollectionLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +519,7 @@
 				5866F9E41D4EE7AF003497C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5866F9E51D4EE7AF003497C9 /* Build configuration list for PBXNativeTarget "LCCollectionLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +528,7 @@
 				5866F9E71D4EE7AF003497C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
