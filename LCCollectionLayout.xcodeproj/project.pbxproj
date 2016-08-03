@@ -15,7 +15,7 @@
 		5866F9C51D4EE7AF003497C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5866F9C31D4EE7AE003497C9 /* LaunchScreen.storyboard */; };
 		5866F9D01D4EE7AF003497C9 /* LCCollectionLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9CF1D4EE7AF003497C9 /* LCCollectionLayoutTests.m */; };
 		5866F9DB1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9DA1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m */; };
-		5866F9EB1D4EE920003497C9 /* LCLineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */; };
+		58E388F01D519758007DB1D0 /* LCLineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E388EF1D519758007DB1D0 /* LCLineFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		5866F9D61D4EE7AF003497C9 /* LCCollectionLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCCollectionLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5866F9DA1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCCollectionLayoutUITests.m; sourceTree = "<group>"; };
 		5866F9DC1D4EE7AF003497C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5866F9E91D4EE920003497C9 /* LCLineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLineFlowLayout.h; sourceTree = "<group>"; };
-		5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLineFlowLayout.m; sourceTree = "<group>"; };
+		58E388EE1D519758007DB1D0 /* LCLineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLineFlowLayout.h; sourceTree = "<group>"; };
+		58E388EF1D519758007DB1D0 /* LCLineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLineFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		5866F9B41D4EE7AE003497C9 /* LCCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
-				5866F9E81D4EE81A003497C9 /* Layout */,
+				58E388ED1D519758007DB1D0 /* LCLayout */,
 				5866F9B81D4EE7AE003497C9 /* AppDelegate.h */,
 				5866F9B91D4EE7AE003497C9 /* AppDelegate.m */,
 				5866F9BB1D4EE7AE003497C9 /* ViewController.h */,
@@ -144,13 +144,13 @@
 			path = LCCollectionLayoutUITests;
 			sourceTree = "<group>";
 		};
-		5866F9E81D4EE81A003497C9 /* Layout */ = {
+		58E388ED1D519758007DB1D0 /* LCLayout */ = {
 			isa = PBXGroup;
 			children = (
-				5866F9E91D4EE920003497C9 /* LCLineFlowLayout.h */,
-				5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */,
+				58E388EE1D519758007DB1D0 /* LCLineFlowLayout.h */,
+				58E388EF1D519758007DB1D0 /* LCLineFlowLayout.m */,
 			);
-			name = Layout;
+			path = LCLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +285,7 @@
 			files = (
 				5866F9BD1D4EE7AE003497C9 /* ViewController.m in Sources */,
 				5866F9BA1D4EE7AE003497C9 /* AppDelegate.m in Sources */,
-				5866F9EB1D4EE920003497C9 /* LCLineFlowLayout.m in Sources */,
+				58E388F01D519758007DB1D0 /* LCLineFlowLayout.m in Sources */,
 				5866F9B71D4EE7AE003497C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
