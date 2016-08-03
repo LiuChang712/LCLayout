@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "LCLineFlowLayout.h"
-#import "Person.h"
 static NSString *cellID = @"cellID";
 @interface ViewController ()<UICollectionViewDataSource>
 
