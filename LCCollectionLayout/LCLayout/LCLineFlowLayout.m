@@ -7,7 +7,6 @@
 //  
 
 #import "LCLineFlowLayout.h"
-#import "Person.h"
 static const CGFloat LCItemWH = 100;
 @implementation LCLineFlowLayout
 
